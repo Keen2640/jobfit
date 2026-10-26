@@ -37,3 +37,6 @@ LinkedIn Job Postings (2023-2024): https://www.kaggle.com/datasets/arshkon/linke
 ## Limitations
 - Labels come from LinkedIn's own tags.
 - `/rank` is plain TF-IDF cosine similarity on an 8,000-posting sample.
+
+## Monitoring
+Request logging plus a `GET /stats` endpoint: request count, error count, median and p95 latency, label mix and mean prediction confidence.
