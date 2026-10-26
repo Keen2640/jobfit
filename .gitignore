@@ -1,0 +1,8 @@
+.venv/
+data/
+__pycache__/
+*.pyc
+artifacts/lora/
+artifacts/lora_adapter/
+.DS_Store
+notes.md
