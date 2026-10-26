@@ -18,7 +18,7 @@ LinkedIn Job Postings (2023-2024): https://www.kaggle.com/datasets/arshkon/linke
 
 - The classes are imbalanced (health care is about 39% of the test set), so macro-F1 is lower than accuracy.
 - SQL: key query went from 24.4 ms to 7.2 ms after adding `idx_postings_company` (last of 3 runs, one company).
-- API: 8.2 ms median latency (p95 13.3 ms) over 100 requests, against the Docker container on a MacBook, localhost.
+- API: 7.7 ms median latency (p95 8.4 ms) over 100 requests, against the Docker container on a MacBook, localhost.
 
 ## How to run
 1. `brew install python@3.11 postgresql@16 libomp`, start Postgres, then `createdb jobfit`
